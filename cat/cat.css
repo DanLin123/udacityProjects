@@ -1,0 +1,25 @@
+#content img {
+	width: 600px;
+	height: 400px;
+	display: block;
+	margin:0 auto;
+}
+
+#content p {
+	width: 30px;
+	margin: 0 auto;
+}
+
+#list {
+	text-align: center;
+}
+
+#list p {
+	display: inline-block;
+	margin: 10px;
+}
+
+#edit {
+	text-align: center;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src='app.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+
+  	<div class="controls">
+        <button class="add-pizza">Add Pizza</button>
+    </div>
+
+    <div class="pizza-list"></div>
+
+	<script type="text/template" data-template="pizza">
+        <div class="pizza" data-id="{{id}}">
+            {{id}}
+            <div class="pizza-controls">
+                <a href="#" class="remove-pizza">X</a>
+            </div>
+        </div>
+    </script>
+</body>
+</html>
